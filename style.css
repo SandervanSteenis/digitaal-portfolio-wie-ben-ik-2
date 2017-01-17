@@ -1,0 +1,157 @@
+h1{ font-family: Comic Sans MS;  
+    background-color: black;
+    padding: 15px;
+    margin: 0px;
+    color: #ffa500;
+    text-align: center;
+
+}
+h2{ font-family: Trebuchet MS;
+  background-color: 
+}
+
+p {
+  font-family: candara;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #666;
+    font-family: Arial;
+    box-shadow: 10px 10px 5px #888888;
+}
+
+li {
+    float: left;
+    position: relative;
+    right: -38%;
+    text-align: left;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    transition: all 0.2s ease-in-out;
+}
+li a:hover:not(.active) {
+   background-color: #000000;
+  -webkit-transition: all 0.2s ease-in-out;
+  -moz-transition: all 0.2s ease-in-out;
+  -ms-transition: all 0.2s ease-in-out;
+  -o-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  color: #D3D3D3;
+}
+
+.green{
+  color: #ffa500;
+}
+.active {
+    background-color: #ffa500;
+}
+   
+   img.mcdonaldsreclame {
+    max-width: 100%;
+     height: auto;
+     width: 350px;
+     height: 180px;
+     position: absolute;
+     left: 1200px;
+     top: 830px;
+     padding: 1px;
+     border: 1px solid #021a40;
+     background-color: #a4c639;
+     
+   }
+
+body {
+   margin: 0px;
+   min-height: 100%;
+   width: 100%;
+   max-width: 100%;
+   height: auto;
+   } 
+
+ .flex-container {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    width: 750px;
+    height: 900px;
+    margin-left: 18%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .flex-container2 {
+    display: -webkit-flex;
+    display: flex;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 1750px;
+    margin-left: 30%;
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .container3 {
+    height: 1325px;
+    margin-top: 3%;
+  }
+  .container4 {
+   height: 1075px;
+   margin-top: 3%;
+  }
+
+  .container5 {
+   height: 1040px;
+   margin-top: 3%;
+  }
+
+  .container6 {
+    height: 1345px;
+   margin-top: 3%;
+  }
+
+  .flex-item {
+    margin: auto;
+    width: 325px;
+    height: 400px;
+  }
+  .item3 {
+    margin: auto;
+    width: 600px;
+    height: 500px;
+  }
+
+  article a {
+    font-family: Trebuchet MS;
+
+  }
+
+article a:link {
+    text-decoration: none;
+}
+
+article a:visited {
+    text-decoration: none;
+}
+
+article a:hover {
+    text-decoration: underline;
+    color: green;
+}
+
+article a:active {
+    text-decoration: underline;
+}
