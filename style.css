@@ -7,11 +7,11 @@ h1{ font-family: Comic Sans MS;
 }
 
 h2{ font-family: Trebuchet MS;
-  background-color: 
+  background-color: ; 
 }
 
 p {
-  font-family: candara;
+  font-family: Arial;
 }
 
 ul {
@@ -19,7 +19,8 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #666;
+    background-color: #666
+    ;
     font-family: Arial;
     position: relative;
     -webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -81,6 +82,17 @@ body {
    height: auto;
    } 
 
+   .sitecontainer {
+    width: 980px;
+   }
+
+   .over {
+    float: left;
+    width: 448px;
+    height: 500px;
+    background-color: #f0f4f5;
+   }
+
  .flex-container {
     display: -webkit-flex;
     display: flex;
@@ -94,36 +106,10 @@ body {
     margin-top: 2%;
     margin-bottom: 2%;
   }
-  .flex-container2 {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-direction: column;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    width: 100px;
-    height: 1750px;
-    margin-left: 30%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
+
   .container3 {
     height: 1325px;
     margin-top: 3%;
-  }
-  .container4 {
-   height: 1075px;
-   margin-top: 3%;
-  }
-
-  .container5 {
-   height: 1040px;
-   margin-top: 3%;
-  }
-
-  .container6 {
-    height: 1345px;
-   margin-top: 3%;
   }
 
   .flex-item {
