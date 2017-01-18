@@ -11,7 +11,12 @@ h2{ font-family: Trebuchet MS;
 }
 
 p {
-  font-family: Arial;
+  font-family: Trebuchet MS;
+}
+
+a {
+  text-decoration: none;
+  color: #5391ce;
 }
 
 ul {
@@ -82,14 +87,12 @@ body {
    height: auto;
    } 
 
-   .sitecontainer {
-    width: 980px;
-   }
-
    .over {
-    float: left;
+    float: left ;
     width: 448px;
     height: 500px;
+    margin: 22px;
+    padding: 20px;
     background-color: #f0f4f5;
    }
 
