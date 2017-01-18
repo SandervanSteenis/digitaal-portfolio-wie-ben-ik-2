@@ -4,8 +4,8 @@ h1{ font-family: Comic Sans MS;
     margin: 0px;
     color: #ffa500;
     text-align: center;
-
 }
+
 h2{ font-family: Trebuchet MS;
   background-color: 
 }
@@ -21,8 +21,11 @@ ul {
     overflow: hidden;
     background-color: #666;
     font-family: Arial;
-    box-shadow: 10px 10px 5px #888888;
-}
+    position: relative;
+    -webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+      }
 
 li {
     float: left;
