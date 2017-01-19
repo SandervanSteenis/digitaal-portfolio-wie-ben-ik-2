@@ -89,11 +89,15 @@ body {
 
    .over {
     float: left ;
-    width: 448px;
-    height: 500px;
+    width: 510px;
+    height: 510px;
     margin: 22px;
     padding: 20px;
     background-color: #f0f4f5;
+    position: relative;
+    -webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
    }
 
  .flex-container {
