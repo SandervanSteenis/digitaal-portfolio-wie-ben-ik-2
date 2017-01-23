@@ -85,13 +85,14 @@ body {
    width: 100%;
    max-width: 100%;
    height: auto;
+   background-color: #D7D7D7;
    } 
 
    .over {
-    float: left ;
-    width: 510px;
-    height: 510px;
-    margin: 22px;
+    float: left;
+    width: 475px;
+    height: 350px;
+    margin: 50px;
     padding: 20px;
     background-color: #f0f4f5;
     position: relative;
@@ -130,24 +131,23 @@ body {
     height: 500px;
   }
 
-  article a {
-    font-family: Trebuchet MS;
-
-  }
-
-article a:link {
+section a:link {
     text-decoration: none;
 }
 
-article a:visited {
+section a:visited {
     text-decoration: none;
 }
 
-article a:hover {
+section a:hover {
     text-decoration: underline;
-    color: green;
 }
 
-article a:active {
-    text-decoration: underline;
+section a:active {
+    text-decoration: underline; 
 }
+
+.overlink {
+  color: black;
+}
+
