@@ -6,7 +6,7 @@ h1{ font-family: Comic Sans MS;
     text-align: center;
 }
 
-h2{ font-family: Trebuchet MS;
+h2{ font-family: Comic Sans MS;
   background-color: ; 
 }
 
@@ -79,13 +79,15 @@ li a:hover:not(.active) {
      
    }
 
+   
+
 body {
    margin: 0px;
    min-height: 100%;
    width: 100%;
    max-width: 100%;
    height: auto;
-   background-color: #D7D7D7;
+   background-color: ;
    } 
 
    .over {
@@ -94,11 +96,15 @@ body {
     height: 350px;
     margin: 50px;
     padding: 20px;
-    background-color: #f0f4f5;
+    background-color: #EDEDED;
     position: relative;
     -webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+   }
+
+   .intro {
+    font-size: 16px;
    }
 
  .flex-container {
@@ -149,5 +155,18 @@ section a:active {
 
 .overlink {
   color: black;
+}
+
+.photo {
+  float: left; 
+  margin-top: 50px;
+  width: 160px; 
+  height: 210px;
+  border: 2px solid grey;
+  border-radius: 10px;
+  position:relative;
+    -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
 
