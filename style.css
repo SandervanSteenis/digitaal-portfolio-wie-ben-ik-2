@@ -19,28 +19,41 @@ a {
   color: #5391ce;
 }
 
-ul {
-    list-style-type: none;
-    margin: 0;
-    padding: 0;
-    overflow: hidden;
-    background-color: #666
-    ;
-    font-family: Arial;
-    position: relative;
-    -webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-      }
-
 li {
     float: left;
     position: relative;
     right: -38%;
     text-align: left;
+  }
+
+nav ul ul {
+   opacity: 0; 
+   transition:opacity 0.1s linear; 
+  -webkit-transition:opacity 0.1s linear; 
+  -moz-transition:opacity 0.1s linear; 
+  -o-transition:opacity 0.1s linear; 
 }
 
-li a {
+  nav ul li:hover > ul {
+    opacity: 1;
+  }
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #666;
+    font-family: Arial;
+    position: relative;
+    -webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+  nav ul:after {
+    content: ""; clear: both; display: block;
+  }
+
+  li a {
     display: block;
     color: white;
     text-align: center;
@@ -56,9 +69,24 @@ li a:hover:not(.active) {
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
   color: #D3D3D3;
+}    
+    
+  nav ul ul {
+    background: #666; border-radius: 0px; padding: 0px;
+    position: absolute; top: 100%;
+  }
+
+ nav ul ul li {
+      float: none; 
+      border-top: 1px solid #6b727c;
+      border-bottom: 1px solid #575f6a; position: relative;
+    }
+
+.drop-nav li {
+  left: 0px;
 }
 
-.green{
+.green {
   color: #ffa500;
 }
 .active {
@@ -169,4 +197,3 @@ section a:active {
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
 }
-
