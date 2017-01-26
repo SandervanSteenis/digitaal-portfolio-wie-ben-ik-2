@@ -1,4 +1,4 @@
-h1{ font-family: Comic Sans MS;  
+h1 { font-family: Comic Sans MS;  
     background-color: black;
     padding: 15px;
     margin: 0px;
@@ -6,8 +6,13 @@ h1{ font-family: Comic Sans MS;
     text-align: center;
 }
 
-h2{ font-family: Comic Sans MS;
-  background-color: ; 
+h2 { font-family: Comic Sans MS;
+}
+
+h3 { 
+  font-family: Trebuchet MS;
+  text-align: center;
+  font-size: 25px;
 }
 
 p {
@@ -133,6 +138,11 @@ body {
 
    .intro {
     font-size: 16px;
+   }
+
+   .opdr {
+    display: block;
+    margin: 0 auto;
    }
 
  .flex-container {
