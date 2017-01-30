@@ -128,6 +128,7 @@ body {
     height: 350px;
     margin: 50px;
     padding: 20px;
+    padding-top: 0px;
     background-color: #EDEDED;
     position: relative;
     -webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
@@ -142,6 +143,19 @@ body {
    .opdr {
     display: block;
     margin: 0 auto;
+   }
+
+   .overzicht {
+    float: left;
+    width: 350px;
+    height: 250px;
+    margin: 50px;
+    padding: 20px;
+    background-color: #EDEDED;
+    position: relative;
+    -webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
    }
 
  .flex-container {
