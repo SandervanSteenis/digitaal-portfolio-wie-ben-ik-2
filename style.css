@@ -97,22 +97,6 @@ li a:hover:not(.active) {
 .active {
     background-color: #ffa500;
 }
-   
-   img.mcdonaldsreclame {
-    max-width: 100%;
-     height: auto;
-     width: 350px;
-     height: 180px;
-     position: absolute;
-     left: 1200px;
-     top: 830px;
-     padding: 1px;
-     border: 1px solid #021a40;
-     background-color: #a4c639;
-     
-   }
-
-   
 
 body {
    margin: 0px;
@@ -157,36 +141,6 @@ body {
        -moz-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
    }
-
- .flex-container {
-    display: -webkit-flex;
-    display: flex;
-    -webkit-flex-wrap: wrap;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    width: 750px;
-    height: 900px;
-    margin-left: 18%;
-    margin-top: 2%;
-    margin-bottom: 2%;
-  }
-
-  .container3 {
-    height: 1325px;
-    margin-top: 3%;
-  }
-
-  .flex-item {
-    margin: auto;
-    width: 325px;
-    height: 400px;
-  }
-  .item3 {
-    margin: auto;
-    width: 600px;
-    height: 500px;
-  }
 
 section a:link {
     text-decoration: none;
