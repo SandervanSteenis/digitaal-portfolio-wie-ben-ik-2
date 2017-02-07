@@ -1,8 +1,9 @@
-h1 { font-family: Comic Sans MS;  
+h1 { font-family: Bubblegum Sans;
+    font-size: 40px;  
     background-color: black;
     padding: 15px;
     margin: 0px;
-    color: #ffa500;
+    color: #1874ce; /*#1e90ff Color Hex Dodger Blue*/
     text-align: center;
 }
 
@@ -13,6 +14,11 @@ h3 {
   font-family: Trebuchet MS;
   text-align: center;
   font-size: 25px;
+  text-decoration: underline;
+}
+h4 {
+  font-family: Comic Sans MS;
+  font-size: 20px;
 }
 
 p {
@@ -75,7 +81,7 @@ li a:hover:not(.active) {
   -ms-transition: all 0.2s ease-in-out;
   -o-transition: all 0.2s ease-in-out;
   transition: all 0.2s ease-in-out;
-  color: #D3D3D3;
+  color: #d3d3d3;
 }    
     
   nav ul ul {
@@ -93,11 +99,11 @@ li a:hover:not(.active) {
   left: 0px;
 }
 
-.green {
+.orange {
   color: #ffa500;
 }
 .active {
-    background-color: #ffa500;
+    background-color: #1874ce;
 }
 
 body {
@@ -108,18 +114,25 @@ body {
    height: auto;
    } 
 
-   .over {
+   .introductie {
     float: left;
     width: 475px;
-    height: 350px;
+    height: 355px;
     margin: 50px;
     padding: 20px;
     padding-top: 0px;
-    background-color: #EDEDED;
+    background-color: #efefef;
     position: relative;
     -webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+   }
+
+   .school {
+    width: 475px;
+    position: fixed;
+    left: 50%;
+    margin-left: -200px;
    }
 
    .intro {
@@ -133,16 +146,32 @@ body {
 
    .overzicht {
     float: left;
-    width: 350px;
-    height: 250px;
+    width: 400px;
+    height: 300px;
     margin: 50px;
     padding: 20px;
-    background-color: #EDEDED;
+    background-color: #efefef;
     position: relative;
     -webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
    }
+
+div a:link {
+    text-decoration: none;
+}
+
+div a:visited {
+    text-decoration: none;
+}
+
+div a:hover {
+    text-decoration: underline;
+}
+
+div a:active {
+    text-decoration: underline; 
+}
 
 section a:link {
     text-decoration: none;
@@ -160,6 +189,8 @@ section a:active {
     text-decoration: underline; 
 }
 
+
+
 .overlink {
   color: black;
 }
@@ -175,4 +206,26 @@ section a:active {
     -webkit-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
        -moz-box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
             box-shadow:0 1px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+
+.footer {
+  font-family: arial;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
+}
+
+.footer2 {
+  font-family: arial;
+  position: relative;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  padding: 1rem;
+  background-color: #efefef;
+  text-align: center;
 }
