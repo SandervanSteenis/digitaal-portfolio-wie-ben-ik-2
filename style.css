@@ -210,22 +210,24 @@ section a:active {
 
 .footer {
   font-family: arial;
+  font-size: 18px;
   position: absolute;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  padding: 19px;
   background-color: #efefef;
   text-align: center;
 }
 
 .footer2 {
   font-family: arial;
+  font-size: 18px;
   position: fixed;
   right: 0;
   bottom: 0;
   left: 0;
-  padding: 1rem;
+  padding: 19px;
   background-color: #efefef;
   text-align: center;
 }
