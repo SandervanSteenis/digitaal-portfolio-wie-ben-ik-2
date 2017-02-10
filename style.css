@@ -19,6 +19,7 @@ h3 {
 h4 {
   font-family: Comic Sans MS;
   font-size: 20px;
+  text-align: center;
 }
 
 p {
@@ -133,7 +134,12 @@ body {
     width: 475px;
     margin: auto;
    }
-   .opleiding{
+   .opleiding {
+    width: 475px;
+    margin: auto;
+   }
+
+   .beroep {
     width: 475px;
     margin: auto;
    }
