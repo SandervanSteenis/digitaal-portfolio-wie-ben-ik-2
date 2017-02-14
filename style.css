@@ -153,18 +153,6 @@ body {
     margin: 0 auto;
    }
 
-   .overzicht {
-    float: left;
-    width: 400px;
-    height: 300px;
-    margin: 50px;
-    padding: 20px;
-    background-color: #efefef;
-    position: relative;
-    -webkit-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-       -moz-box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-            box-shadow:0 2px 4px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
-   }
 
 div a:link {
     text-decoration: none;
@@ -240,4 +228,39 @@ section a:active {
   padding: 10px;
   background-color: #efefef;
   text-align: center;
+}
+
+.overzicht {
+  width: 500px;
+  margin: 50px;
+}
+
+ .overzicht ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.overzicht li {
+  font: 200 20px/1.5 Helvetica;
+  border-bottom: 1px solid #ccc;
+}
+
+.overzicht li a {
+  color: black;
+  width: 180px;
+  display: block;
+  text-align: left;
+  text-decoration: none;
+
+  -webkit-transition: background-color 0.3s ease;
+  -moz-transition: background-color 0.3s ease;
+  -o-transition: background-color 0.3s ease;
+  -ms-transition: background-color 0.3s ease;
+  transition: background-color 0.3s ease;
+}
+
+.overzicht li a:hover {
+  color: white;
+  background: #1874ce;
 }
